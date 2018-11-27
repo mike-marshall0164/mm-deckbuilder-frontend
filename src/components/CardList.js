@@ -25,9 +25,11 @@ class CardList extends Component {
         return (
             <div>
                 <h1>List of Minion Master Cards</h1>
-                {this.props.cards.map((card, i) => (
-                    <Card key={i} card={card} />
-                ))}
+                <div className="app-card-list">
+                    {this.props.cards.map((card, i) => (
+                        <Card key={i} card={card} />
+                    ))}
+                </div>
             </div>
         );
     }
