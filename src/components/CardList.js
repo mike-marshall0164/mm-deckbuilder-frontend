@@ -23,14 +23,14 @@ class CardList extends Component {
         }
 
         return (
-            <div>
-                <h1>List of Minion Master Cards</h1>
+            <div className="container bg-dark">
                 <div className="app-card-list">
                     {this.props.cards.map((card, i) => (
                         <Card key={i} card={card} />
                     ))}
                 </div>
             </div>
+            
         );
     }
 }

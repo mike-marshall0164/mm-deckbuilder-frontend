@@ -12,3 +12,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.logo-img-top {
+  height: 66px;
+}
+
+
+.card-img-top {
+  /* height: 150px;   */
+  display: block;
+}
+
+.app-card-list {
+  position: relative;
+  max-width: 960px;
+}
+
+

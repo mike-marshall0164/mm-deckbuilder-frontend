@@ -6,9 +6,9 @@ class Card extends Component {
         var altText = "Card Image for " + this.props.card.name;
         var style = {width: '18rem'};
         return (
-            <div class="card" style={style}>
+            <div class="card bg-dark text-white " style={style}>
                 <img class="card-img-top" src={this.props.card.img_url} alt={altText} />
-                <div class="card-body">
+                <div class="card-img-overlay invisible">
                     <h5 class="card-title">{this.props.card.name}</h5>
                     <p class="card-text">{this.props.card.description}</p>
                 </div>
