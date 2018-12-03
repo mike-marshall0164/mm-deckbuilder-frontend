@@ -26,6 +26,13 @@ code {
 .app-card-list {
   position: relative;
   max-width: 960px;
+  display: grid;
+  flex-wrap: wrap;
 }
-
+.app-master-list {
+    position: relative;
+    max-width: 960px;
+    display: grid;
+    flex-wrap: wrap;
+}
 

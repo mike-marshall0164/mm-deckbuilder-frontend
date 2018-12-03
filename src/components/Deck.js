@@ -9,9 +9,7 @@ class Deck extends Component {
         <div className="container bg-dark text-light border">
             <p>Deck</p>
             <div className="row">
-            <ul>
                 
-            </ul>
             </div>
         </div>
         );
